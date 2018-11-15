@@ -1,0 +1,31 @@
+.CartPage-items{
+  margin:0;
+  padding:0;
+
+}
+.CarItem-controls{
+  display: flex;
+  flex-direction: row;
+}
+.CartItem-count{
+  padding: 5px 10px;
+  border:1px solid #ccc;
+
+}
+
+.CartItem-addOne,
+.CartItem-removeOne{
+  margin-top: 2px;
+  padding:5px 10px;
+  border:1px solid #ccc;
+  background:#fff;
+  height: 25px;
+
+}
+
+.CartItem-addOne{
+  border-left:none;
+}
+.CartItem-removeOne{
+  border-right: none;
+}
